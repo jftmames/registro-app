@@ -1,0 +1,7 @@
+reglas:
+  - id: "doble_venta"
+    descripcion: "Cuando un mismo inmueble se vende a dos personas."
+    analisis: "Tiene prioridad quien inscribió primero en el Registro. El segundo comprador puede quedar sin protección."
+  - id: "admin_no_inscrito"
+    descripcion: "Administrador nombrado no inscrito en el Registro Mercantil."
+    analisis: "Los actos realizados por el administrador no inscrito carecen de eficacia frente a terceros."
